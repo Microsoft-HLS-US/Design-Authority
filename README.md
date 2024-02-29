@@ -9,7 +9,7 @@ Included is a starter solution that allows organizations to manage their project
 
 1. Ensure that SharePoint folder for Project Intake file drop is created. 
 2. Ensure folder structure for Report generation is created in OneDrive for Business. Suggested structure below.
-	* Molina
+	* Company
 		* Templates
 		* Outputs
 			* Word
