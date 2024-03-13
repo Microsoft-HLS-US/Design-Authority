@@ -16,10 +16,10 @@ Included is a starter solution that allows organizations to manage their project
 			* PDF
 3. Copy the Report word template to the \Company\Templates folder. 
 4. Import the Calendar PCF managed solution and publish it (https://github.com/rwilson504/PCFControls/tree/master/Calendar). 
-4.1 Import the Color Picker PCF managed solution and publish it (https://github.com/rwilson504/PCFControls/releases/latest/download/ColorPicker_managed.zip)
-5. Import the unmanaged solution zip file to your Dataverse environment and publish all customizations. 
-6. Import the Control Table Data through Power Apps Maker Portal > Tables > Control > Command menu item (Import)
-7. Import the flow packages and publish all customizations. You will be asked to create connections. 
+5. Import the Color Picker PCF managed solution and publish it (https://github.com/rwilson504/PCFControls/releases/latest/download/ColorPicker_managed.zip)
+6. Import the unmanaged solution zip file to your Dataverse environment and publish all customizations. 
+7. Import the Control Table Data through Power Apps Maker Portal > Tables > Control > Command menu item (Import)
+8. Import the flow packages and publish all customizations. You will be asked to create connections. 
 	* Dataverse
 	* Outlook
 	* Word
@@ -27,10 +27,10 @@ Included is a starter solution that allows organizations to manage their project
 	* Entra
 	* OneDrive
 	* SharePoint
-8. Edit the "Import Incoming DA Intake File" flow's trigger location to point to the SharePoint folder(from Step 1). 
-9. Edit the "Send Report to Roster Members"  flow's "Populate Word Template" action to point to the Report word template (from step 3)
-9. Update Control table record titled "Roster" to the GUID for the Distribution list from Entra. The MDA can be used to edit this value. 
-10. Update the verbiage(s) for the outbound email. Ensure that tokens in double curly braces are not deleted. 
+9. Edit the "Import Incoming DA Intake File" flow's trigger location to point to the SharePoint folder(from Step 1). 
+10. Edit the "Send Report to Roster Members"  flow's "Populate Word Template" action to point to the Report word template (from step 3)
+11. Update Control table record titled "Roster" to the GUID for the Distribution list from Entra. The MDA can be used to edit this value. 
+12. Update the verbiage(s) for the outbound email. Ensure that tokens in double curly braces are not deleted. 
 
 ## License
 
