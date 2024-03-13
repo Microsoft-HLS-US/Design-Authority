@@ -16,6 +16,7 @@ Included is a starter solution that allows organizations to manage their project
 			* PDF
 3. Copy the Report word template to the \Company\Templates folder. 
 4. Import the Calendar PCF managed solution and publish it (https://github.com/rwilson504/PCFControls/tree/master/Calendar). 
+4.1 Import the Color Picker PCF managed solution and publish it (https://github.com/rwilson504/PCFControls/releases/latest/download/ColorPicker_managed.zip)
 5. Import the unmanaged solution zip file to your Dataverse environment and publish all customizations. 
 6. Import the Control Table Data through Power Apps Maker Portal > Tables > Control > Command menu item (Import)
 7. Import the flow packages and publish all customizations. You will be asked to create connections. 
